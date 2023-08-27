@@ -1,0 +1,39 @@
+#container{
+    height:400px;
+    width:400px;
+    background-color:rgb(245, 242, 242);
+    border:2px solid black;
+    border-radius:10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.alpha{
+    height:100px;
+    width:100px;
+    background-color:grey;
+    border:2px solid black;
+    border-radius:10px;
+    font-size:50px;
+    text-align:center;
+}
+#content{
+    height: 50px;
+    width: 900px;
+    background-color: palevioletred;
+    border: 2px solid rgb(43, 183, 226);
+    border-radius: 10px;
+    display: flex;
+    justify-content:flex-start;
+    align-content: center;
+
+}
+.box{
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    margin-left: 5px;
+    line-height: 50px;
+    
+}
